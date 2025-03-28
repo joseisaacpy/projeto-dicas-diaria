@@ -113,7 +113,17 @@ gerarDicaDoDia(); // Exibe uma dica ao carregar a página
 let btnDicas = document.getElementById("gerar-dica");
 
 // ao clicar, vai gerar a dica
-btnDicas.addEventListener("click", gerarDicaDoDia);
+btnDicas.addEventListener("click", function () {
+  // chama a funcao de gerar dica
+  gerarDicaDoDia();
+  // icone de carregamento dentro do botão
+  let iconeBtn = document.querySelector("button i");
+  // Remover a classe 'load' antes de adicionar novamente, para reiniciar a animação
+  iconeBtn.classList.remove("load");
+  setTimeout(function () {
+    iconeBtn.classList.add("load"); // Adiciona a classe para rodar o ícone
+  }, 0.1); // Um pequeno delay para reiniciar a animação
+});
 
 // Ao clicar duas vezes, exibe uma mensagem de pressa e depois restaura a dica
 btnDicas.addEventListener("dblclick", function () {
