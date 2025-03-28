@@ -1,41 +1,41 @@
-Gerador de Dicas do Dia
+# Gerador de Dicas do Dia
 
 Este projeto é um gerador de dicas motivacionais e produtivas. Ele exibe uma dica aleatória ao carregar a página e permite ao usuário gerar novas dicas ao clicar em um botão. Além disso, se o usuário clicar duas vezes rapidamente, uma mensagem divertida será exibida antes de retornar à dica original.
 
-📌 Funcionalidades
+## 📌 Funcionalidades
 
-Exibir uma dica aleatória ao carregar a página.
+- Exibir uma dica aleatória ao carregar a página.
 
-Gerar novas dicas ao clicar no botão "Gerar Dica".
+- Gerar novas dicas ao clicar no botão "Gerar Dica".
 
-Exibir mensagens divertidas ao clicar duas vezes no botão.
+- Exibir mensagens divertidas ao clicar duas vezes no botão.
 
-Restaurar a dica original após 2 segundos.
+- Restaurar a dica original após 2 segundos.
 
-🚀 Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript (DOM e eventos)
+- JavaScript (DOM e eventos)
 
-🛠️ Como usar
+### 🛠️ Como usar
 
-Abra o arquivo index.html em seu navegador.
+- Abra o arquivo index.html em seu navegador.
 
-Clique no botão "Gerar Dica" para ver uma nova dica.
+- Clique no botão "Gerar Dica" para ver uma nova dica.
 
-Experimente clicar duas vezes rapidamente no botão e veja o que acontece!
+- Experimente clicar duas vezes rapidamente no botão e veja o que acontece!
 
-📂 Estrutura do projeto
+### 📂 Estrutura do projeto
 
 /gerador-de-dicas
 │── index.html  # Estrutura da página
 │── style.css   # Estilos visuais
 │── script.js   # Lógica do gerador de dicas
 
-📜 Licença
+### 📜 Licença
 
 Este projeto é de livre uso para estudos e modificações. 😊
 
