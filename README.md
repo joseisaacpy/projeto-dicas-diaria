@@ -29,12 +29,14 @@ Este projeto é um gerador de dicas motivacionais e produtivas. Ele exibe uma di
 - Experimente clicar duas vezes rapidamente no botão e veja o que acontece!
 
 ### 📂 Estrutura do projeto
-
+`````
 /gerador-de-dicas
 │── index.html
-│── style.css
-│── script.js
-
+│── css/
+│   └── style.css
+│── js/
+│   └── script.js
+`````
 ### 📜 Licença
 
 Este projeto é de livre uso para estudos e modificações. 😊
