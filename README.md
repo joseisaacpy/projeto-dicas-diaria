@@ -31,9 +31,9 @@ Este projeto é um gerador de dicas motivacionais e produtivas. Ele exibe uma di
 ### 📂 Estrutura do projeto
 
 /gerador-de-dicas
-│── index.html  # Estrutura da página
-│── style.css   # Estilos visuais
-│── script.js   # Lógica do gerador de dicas
+│── index.html
+│── style.css
+│── script.js
 
 ### 📜 Licença
 
